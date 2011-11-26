@@ -414,7 +414,7 @@ End Sub
 
 Sub SendMail() 
 	AutNameCommand = AutName
-	PasswordCommand = Password
+	PasswordCommand = ElementaryCrypt(Password)
 	SMTPServerCommand = SMTPServer
 	SenderNameCommand = SenderName
 	If errorFlag = false Then
@@ -445,10 +445,35 @@ Sub SendMail()
 	objEmail.Send
  End Sub
  
- Sub DelLog()
+Sub DelLog()
 	If errorFlag = false Then
 	Set fsoDL = CreateObject("Scripting.FileSystemObject")
 	Set LogFileOut =fsoDL.GetFile(LogDir + BackupType + "_" + DateStartOperation + ".log")
 	LogFileOut.Delete
 	End If
- End Sub
+End Sub
+ 
+Function ElementaryCrypt (input)
+	Dim number, ostatok, output,x,y,i
+	output = ""
+	number = Len(input)
+	Dim Array()
+	ReDim Array(number,number)
+	x=1
+	y=1
+	For i = 1 to number step 1
+		Array(x,y) = Mid(input,i,1)
+		y=y+1		
+		ostatok=i/3
+		If ostatok=Int(ostatok) Then
+			x=x+1
+			y=1
+		End If	
+	Next
+	For y = 0 to Len(input) step 1
+		For x=0 to Len(input) step 1
+			output = output + Array(x,y)
+		Next
+	Next
+	ElementaryCrypt = output
+End Function
