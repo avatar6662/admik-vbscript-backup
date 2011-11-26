@@ -21,16 +21,15 @@ FormStartConfig()
 DefineBackupType()
 Set fsoALL = CreateObject("Scripting.FileSystemObject")
 Set LogFileStreamOut = fsoALL.OpenTextFile(LogDir + BackupType + "_" + DateStartOperation + ".log", 8, true, 0 )
-LogFileStreamOut.WriteLine now() & " Start operation: " & NameOperation
+LogFileStreamOut.WriteLine now() & " Start operation"
 LogFileStreamOut.WriteLine now() & " RunBackup()"
 RunBackup()
 LogFileStreamOut.WriteLine now() & " DeleteOldBackup()"
 DeleteOldBackup()
 LogFileStreamOut.WriteLine now() & " Start send message"
 LogFileStreamOut.Close
-SendMail()
+SendErrorMessage()
 DelLog()
-
 
 Sub FormStartConfig() 'вызывать если параметры задаются в инишнике
 	For i= 0 to 100 step 1
@@ -269,7 +268,7 @@ Sub RunBackup()		'в зависимости от типа ,бэкапа 7зип запускается с разными парам
 	If BackupType = "Full" or BackupType = "MonthFull" Then
 		For i = 0 to CountRB step 1			
 			ArchiveName = BackupNameArray(i) + "-" + BackupType + "-"
-			CommandLine7Zip = (Cmd + " " + Chr(34) + Program7Zip + " a -t7z -ssw -mx9 -r0 -w" + Chr(34) + TempDir + Chr(34) + " " + Chr(34) + Destination + ArchiveName + DateStartOperation + ".7z" + Chr(34) + " " + Chr(34) + SourceArray(i) + Chr(34)    + " >> " + Chr(34) + LogDir + "7ZIP" + ArchiveName + DateStartOperation + ".log" + Chr(34) + Chr(34) )
+			CommandLine7Zip = (Cmd + " " + Chr(34) + Program7Zip + " a -t7z -ssw -mx9 -r0 -w" + Chr(34) + TempDir + Chr(34) + " " + Chr(34) + Destination + ArchiveName + DateStartOperation + ".7z" + Chr(34) + " " + Chr(34) + SourceArray(i) + Chr(34)    + " >> " + Chr(34) + LogDir + "7ZIP" + ArchiveName + DateStartOperation + ".log" + Chr(34) + Chr(34) )			
 			LogFileStreamOut.WriteLine now() & " Backup " & SourceArray(i) & " to " & Destination & ArchiveName & DateStartOperation & ".7z" & " started"
 			WshShell.Run CommandLine7Zip, 0, true
 			Anylize7ZipLog(ArchiveName)
@@ -411,12 +410,16 @@ Sub DeleteOldBackup()		'процедура удаления старых бэкапов
 	End If
 End Sub
 		
-
-Sub SendMail() 
-	AutNameCommand = AutName
-	PasswordCommand = ElementaryCrypt(Password)
-	SMTPServerCommand = SMTPServer
-	SenderNameCommand = SenderName
+Sub SendErrorMessage()	'в зависимости от значения переменной errorFlag отправляем разные сообщения на разные ящики
+	Set WshShell = WScript.CreateObject("WScript.Shell")
+	WshShell.Exec "C:\BackupScript\stunnel\stunnel.exe"
+	If AutName = "" Then
+		AutNameCommand = ""
+		PasswordCommand = ""
+	Else
+		AutNameCommand = " -u " +  Chr(34) +  AutName +  Chr(34)
+		PasswordCommand = " -pw " +  Chr(34) +  Password + Chr(34)
+	End If
 	If errorFlag = false Then
 		CurrentRecepient = RecepientGood
 		CurrentReturnID = ReturnIDGoodOperation
@@ -425,55 +428,18 @@ Sub SendMail()
 		CurrentRecepient = RecepientBad
 		CurrentReturnID = ReturnIDBadOperation
 	End If
-	Set objEmail = CreateObject("CDO.Message") 
-	objEmail.From = SenderNameCommand
-	objEmail.Sender = SenderNameCommand
-	objEmail.ReplyTo = SenderNameCommand
-	objEmail.To   = CurrentRecepient 
-	objEmail.Subject = NameOperation
-	objEmail.TextBody = NameOperation & " " & CurretReturnID
-	objEmail.AddAttachment LogDir & BackupType & "_" & DateStartOperation & ".log"
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/sendusing") = 2 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/smtpserver")=SMTPServerCommand 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/smtpconnectiontimeout") = 60
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/sendusername")=AutNameCommand 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/sendpassword")=PasswordCommand 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = True 
-	objEmail.Configuration.Fields.Item("http://schemas.microsoft.com/cdo/configuration/sendserverport") = 587 
-	objEmail.Configuration.Fields.Update 
-	objEmail.Send
- End Sub
- 
-Sub DelLog()
-	If errorFlag = false Then
-	Set fsoDL = CreateObject("Scripting.FileSystemObject")
-	Set LogFileOut =fsoDL.GetFile(LogDir + BackupType + "_" + DateStartOperation + ".log")
-	LogFileOut.Delete
-	End If
+	CommandLineBlat =  Chr(34) + DirBlat + "blat.exe" +  Chr(34) +  " " + " -subject " + Chr(34) + NameOperation + Chr(34) + " -body " + Chr(34) + NameOperation + Chr(34) + " -attach " + Chr(34) + LogDir + BackupType + "_" + DateStartOperation + ".log" + Chr(34) + " -to " +  Chr(34) +  CurrentRecepient +  Chr(34) +  " -server " +  Chr(34) +  SMTPServer +  Chr(34) +  " -f " +  Chr(34) +  SenderName +  Chr(34) +  AutNameCommand +  PasswordCommand + " -log " +Chr(34) + LogDir + "blat-" + DateStartOperation + ".log" + Chr(34)
+	WshShell.Run CommandLineBlat, 0, true
+	WshShell.Exec "C:\BackupScript\stunnel\stunnel.exe -exit"
 End Sub
- 
-Function ElementaryCrypt (input)
-	Dim number, ostatok, output,x,y,i
-	output = ""
-	number = Len(input)
-	Dim Array()
-	ReDim Array(number,number)
-	x=1
-	y=1
-	For i = 1 to number step 1
-		Array(x,y) = Mid(input,i,1)
-		y=y+1		
-		ostatok=i/3
-		If ostatok=Int(ostatok) Then
-			x=x+1
-			y=1
-		End If	
-	Next
-	For y = 0 to Len(input) step 1
-		For x=0 to Len(input) step 1
-			output = output + Array(x,y)
-		Next
-	Next
-	ElementaryCrypt = output
-End Function
+
+
+ Sub DelLog()
+	If errorFlag = false Then
+		Set fsoDL = CreateObject("Scripting.FileSystemObject")
+		Set LogFileOut =fsoDL.GetFile(LogDir + BackupType + "_" + DateStartOperation + ".log")
+		Set LogFileBlat =fsoDL.GetFile(LogDir + "blat-" + DateStartOperation + ".log")
+		LogFileOut.Delete
+		LogFileBlat.Delete
+	End If
+ End Sub
