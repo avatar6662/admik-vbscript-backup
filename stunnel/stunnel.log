@@ -1,0 +1,602 @@
+2011.11.10 16:32:23 LOG7[1264:6932]: No limit detected for the number of clients
+2011.11.10 16:32:23 LOG7[1264:6932]: make_sockets: s_socket#1: FD=268 allocated (blocking mode)
+2011.11.10 16:32:23 LOG7[1264:6932]: make_sockets: s_socket#2: FD=276 allocated (blocking mode)
+2011.11.10 16:32:23 LOG7[1264:6932]: make_sockets: s_accept: FD=280 allocated (non-blocking mode)
+2011.11.10 16:32:23 LOG5[1264:6932]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.10 16:32:23 LOG5[1264:6932]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.10 16:32:23 LOG5[1264:6932]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.10 16:32:23 LOG5[1264:6932]: Reading configuration from file stunnel.conf
+2011.11.10 16:32:23 LOG7[1264:6932]: Snagged 64 random bytes from C:/.rnd
+2011.11.10 16:32:23 LOG7[1264:6932]: Wrote 0 new random bytes to C:/.rnd
+2011.11.10 16:32:24 LOG7[1264:6932]: PRNG seeded successfully
+2011.11.10 16:32:24 LOG6[1264:6932]: Initializing SSL context for service ssmtp
+2011.11.10 16:32:24 LOG7[1264:6932]: SSL options set: 0x00000004
+2011.11.10 16:32:24 LOG6[1264:6932]: SSL context initialized
+2011.11.10 16:32:24 LOG5[1264:6932]: Configuration successful
+2011.11.10 16:32:24 LOG7[1264:6932]: accept socket: FD=268 allocated (non-blocking mode)
+2011.11.10 16:32:24 LOG7[1264:6932]: Option SO_REUSEADDR set on accept socket
+2011.11.10 16:32:24 LOG7[1264:6932]: Service ssmtp bound to 127.0.0.1:465
+2011.11.10 16:32:24 LOG7[1264:6932]: Service ssmtp opened FD=268
+2011.11.10 16:33:09 LOG7[1264:6932]: Dispatching signals from the signal pipe
+2011.11.10 16:33:09 LOG7[1264:6932]: Processing SIGNAL_TERMINATE
+2011.11.10 16:33:09 LOG5[1264:6932]: Terminated
+2011.11.10 16:33:09 LOG7[1264:6932]: Service ssmtp closed FD=268
+2011.11.10 16:33:09 LOG7[1264:6932]: str_stats: 33 block(s), 1114 data byte(s), 990 control byte(s)
+2011.11.10 16:33:43 LOG7[4984:5248]: No limit detected for the number of clients
+2011.11.10 16:33:43 LOG7[4984:5248]: make_sockets: s_socket#1: FD=264 allocated (blocking mode)
+2011.11.10 16:33:43 LOG7[4984:5248]: make_sockets: s_socket#2: FD=272 allocated (blocking mode)
+2011.11.10 16:33:43 LOG7[4984:5248]: make_sockets: s_accept: FD=276 allocated (non-blocking mode)
+2011.11.10 16:33:43 LOG5[4984:5248]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.10 16:33:43 LOG5[4984:5248]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.10 16:33:43 LOG5[4984:5248]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.10 16:33:43 LOG5[4984:5248]: Reading configuration from file stunnel.conf
+2011.11.10 16:33:43 LOG7[4984:5248]: Snagged 64 random bytes from C:/.rnd
+2011.11.10 16:33:43 LOG7[4984:5248]: Wrote 0 new random bytes to C:/.rnd
+2011.11.10 16:33:44 LOG7[4984:5248]: PRNG seeded successfully
+2011.11.10 16:33:44 LOG6[4984:5248]: Initializing SSL context for service ssmtp
+2011.11.10 16:33:44 LOG7[4984:5248]: SSL options set: 0x00000004
+2011.11.10 16:33:44 LOG6[4984:5248]: SSL context initialized
+2011.11.10 16:33:44 LOG5[4984:5248]: Configuration successful
+2011.11.10 16:33:44 LOG7[4984:5248]: accept socket: FD=264 allocated (non-blocking mode)
+2011.11.10 16:33:44 LOG7[4984:5248]: Option SO_REUSEADDR set on accept socket
+2011.11.10 16:33:44 LOG7[4984:5248]: Service ssmtp bound to 127.0.0.1:465
+2011.11.10 16:33:44 LOG7[4984:5248]: Service ssmtp opened FD=264
+2011.11.10 16:37:53 LOG7[4984:5248]: Dispatching signals from the signal pipe
+2011.11.10 16:37:53 LOG7[4984:5248]: Processing SIGNAL_TERMINATE
+2011.11.10 16:37:53 LOG5[4984:5248]: Terminated
+2011.11.10 16:37:53 LOG7[4984:5248]: Service ssmtp closed FD=264
+2011.11.10 16:37:53 LOG7[4984:5248]: str_stats: 33 block(s), 1114 data byte(s), 990 control byte(s)
+2011.11.10 16:39:08 LOG7[2496:4948]: No limit detected for the number of clients
+2011.11.10 16:39:08 LOG7[2496:4948]: make_sockets: s_socket#1: FD=268 allocated (blocking mode)
+2011.11.10 16:39:08 LOG7[2496:4948]: make_sockets: s_socket#2: FD=276 allocated (blocking mode)
+2011.11.10 16:39:08 LOG7[2496:4948]: make_sockets: s_accept: FD=280 allocated (non-blocking mode)
+2011.11.10 16:39:08 LOG5[2496:4948]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.10 16:39:08 LOG5[2496:4948]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.10 16:39:08 LOG5[2496:4948]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.10 16:39:08 LOG5[2496:4948]: Reading configuration from file stunnel.conf
+2011.11.10 16:39:08 LOG7[2496:4948]: Snagged 64 random bytes from C:/.rnd
+2011.11.10 16:39:08 LOG7[2496:4948]: Wrote 0 new random bytes to C:/.rnd
+2011.11.10 16:39:08 LOG7[2496:4948]: PRNG seeded successfully
+2011.11.10 16:39:08 LOG6[2496:4948]: Initializing SSL context for service ssmtp
+2011.11.10 16:39:08 LOG7[2496:4948]: SSL options set: 0x00000004
+2011.11.10 16:39:08 LOG6[2496:4948]: SSL context initialized
+2011.11.10 16:39:08 LOG5[2496:4948]: Configuration successful
+2011.11.10 16:39:08 LOG7[2496:4948]: accept socket: FD=268 allocated (non-blocking mode)
+2011.11.10 16:39:08 LOG7[2496:4948]: Option SO_REUSEADDR set on accept socket
+2011.11.10 16:39:08 LOG7[2496:4948]: Service ssmtp bound to 127.0.0.1:465
+2011.11.10 16:39:08 LOG7[2496:4948]: Service ssmtp opened FD=268
+2011.11.10 16:40:16 LOG7[2496:4948]: local socket: FD=456 allocated (non-blocking mode)
+2011.11.10 16:40:16 LOG7[2496:4948]: Service ssmtp accepted FD=456 from 127.0.0.1:61490
+2011.11.10 16:40:16 LOG7[2496:4948]: Creating a new thread
+2011.11.10 16:40:16 LOG7[2496:4948]: New thread created
+2011.11.10 16:40:16 LOG7[2496:5408]: Service ssmtp started
+2011.11.10 16:40:16 LOG7[2496:5408]: Option TCP_NODELAY set on local socket
+2011.11.10 16:40:16 LOG5[2496:5408]: Service ssmtp accepted connection from 127.0.0.1:61490
+2011.11.10 16:40:16 LOG7[2496:5408]: remote socket: FD=428 allocated (non-blocking mode)
+2011.11.10 16:40:16 LOG6[2496:5408]: connect_blocking: connecting 74.125.79.108:465
+2011.11.10 16:40:16 LOG7[2496:5408]: connect_blocking: s_poll_wait 74.125.79.108:465: waiting 10 seconds
+2011.11.10 16:40:16 LOG5[2496:5408]: connect_blocking: connected 74.125.79.108:465
+2011.11.10 16:40:16 LOG5[2496:5408]: Service ssmtp connected remote server from 127.0.0.1:61491
+2011.11.10 16:40:16 LOG7[2496:5408]: Remote FD=428 initialized
+2011.11.10 16:40:16 LOG7[2496:5408]: Option TCP_NODELAY set on remote socket
+2011.11.10 16:40:16 LOG7[2496:5408]: SNI: host name: smtp.gmail.com
+2011.11.10 16:40:16 LOG7[2496:5408]: Peer certificate was cached (2217 bytes)
+2011.11.10 16:40:16 LOG6[2496:5408]: SSL connected: new session negotiated
+2011.11.10 16:40:16 LOG6[2496:5408]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.10 16:40:21 LOG7[2496:5408]: Socket closed on read
+2011.11.10 16:40:21 LOG7[2496:5408]: Sending SSL write shutdown
+2011.11.10 16:40:21 LOG6[2496:5408]: SSL_shutdown successfully sent close_notify
+2011.11.10 16:40:21 LOG7[2496:5408]: SSL socket closed on SSL_read
+2011.11.10 16:40:21 LOG7[2496:5408]: Sending socket write shutdown
+2011.11.10 16:40:21 LOG5[2496:5408]: Connection closed: 0 bytes sent to SSL, 44 bytes sent to socket
+2011.11.10 16:40:21 LOG7[2496:5408]: Service ssmtp finished (0 left)
+2011.11.10 16:40:21 LOG7[2496:5408]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.10 16:47:55 LOG7[2496:4948]: Dispatching signals from the signal pipe
+2011.11.10 16:47:55 LOG7[2496:4948]: Processing SIGNAL_RELOAD_CONFIG
+2011.11.10 16:47:55 LOG5[2496:4948]: Reading configuration from file stunnel.conf
+2011.11.10 16:47:55 LOG7[2496:4948]: Snagged 64 random bytes from C:/.rnd
+2011.11.10 16:47:55 LOG7[2496:4948]: Wrote 0 new random bytes to C:/.rnd
+2011.11.10 16:47:55 LOG7[2496:4948]: PRNG seeded successfully
+2011.11.10 16:47:56 LOG6[2496:4948]: Initializing SSL context for service ssmtp
+2011.11.10 16:47:56 LOG7[2496:4948]: SSL options set: 0x00000004
+2011.11.10 16:47:56 LOG6[2496:4948]: SSL context initialized
+2011.11.10 16:47:56 LOG5[2496:4948]: Configuration successful
+2011.11.10 16:47:56 LOG7[2496:4948]: Service ssmtp closed FD=268
+2011.11.10 16:47:56 LOG7[2496:4948]: accept socket: FD=268 allocated (non-blocking mode)
+2011.11.10 16:47:56 LOG7[2496:4948]: Option SO_REUSEADDR set on accept socket
+2011.11.10 16:47:56 LOG7[2496:4948]: Service ssmtp bound to 127.0.0.1:465
+2011.11.10 16:47:56 LOG7[2496:4948]: Service ssmtp opened FD=268
+2011.11.10 16:47:56 LOG7[2496:4948]: Signal pipe is empty
+2011.11.10 16:48:20 LOG7[2496:4948]: Dispatching signals from the signal pipe
+2011.11.10 16:48:20 LOG7[2496:4948]: Processing SIGNAL_TERMINATE
+2011.11.10 16:48:20 LOG5[2496:4948]: Terminated
+2011.11.10 16:48:20 LOG7[2496:4948]: Service ssmtp closed FD=268
+2011.11.10 16:48:20 LOG7[2496:4948]: str_stats: 44 block(s), 1588 data byte(s), 1320 control byte(s)
+2011.11.10 16:48:26 LOG7[4976:7680]: No limit detected for the number of clients
+2011.11.10 16:48:26 LOG7[4976:7680]: make_sockets: s_socket#1: FD=264 allocated (blocking mode)
+2011.11.10 16:48:26 LOG7[4976:7680]: make_sockets: s_socket#2: FD=276 allocated (blocking mode)
+2011.11.10 16:48:26 LOG7[4976:7680]: make_sockets: s_accept: FD=280 allocated (non-blocking mode)
+2011.11.10 16:48:26 LOG5[4976:7680]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.10 16:48:26 LOG5[4976:7680]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.10 16:48:26 LOG5[4976:7680]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.10 16:48:26 LOG5[4976:7680]: Reading configuration from file stunnel.conf
+2011.11.10 16:48:26 LOG7[4976:7680]: Snagged 64 random bytes from C:/.rnd
+2011.11.10 16:48:26 LOG7[4976:7680]: Wrote 0 new random bytes to C:/.rnd
+2011.11.10 16:48:26 LOG7[4976:7680]: PRNG seeded successfully
+2011.11.10 16:48:26 LOG6[4976:7680]: Initializing SSL context for service ssmtp
+2011.11.10 16:48:26 LOG7[4976:7680]: SSL options set: 0x00000004
+2011.11.10 16:48:26 LOG6[4976:7680]: SSL context initialized
+2011.11.10 16:48:26 LOG5[4976:7680]: Configuration successful
+2011.11.10 16:48:26 LOG7[4976:7680]: accept socket: FD=264 allocated (non-blocking mode)
+2011.11.10 16:48:26 LOG7[4976:7680]: Option SO_REUSEADDR set on accept socket
+2011.11.10 16:48:26 LOG7[4976:7680]: Service ssmtp bound to 127.0.0.1:465
+2011.11.10 16:48:26 LOG7[4976:7680]: Service ssmtp opened FD=264
+2011.11.10 16:57:26 LOG7[4976:7680]: Dispatching signals from the signal pipe
+2011.11.10 16:57:26 LOG7[4976:7680]: Processing SIGNAL_TERMINATE
+2011.11.10 16:57:26 LOG5[4976:7680]: Terminated
+2011.11.10 16:57:26 LOG7[4976:7680]: Service ssmtp closed FD=264
+2011.11.10 16:57:26 LOG7[4976:7680]: str_stats: 33 block(s), 1114 data byte(s), 990 control byte(s)
+2011.11.19 23:42:44 LOG7[48084:47916]: No limit detected for the number of clients
+2011.11.19 23:42:44 LOG7[48084:47916]: make_sockets: s_socket#1: FD=700 allocated (blocking mode)
+2011.11.19 23:42:44 LOG7[48084:47916]: make_sockets: s_socket#2: FD=696 allocated (blocking mode)
+2011.11.19 23:42:44 LOG7[48084:47916]: make_sockets: s_accept: FD=680 allocated (non-blocking mode)
+2011.11.19 23:42:44 LOG5[48084:47916]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:42:44 LOG5[48084:47916]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:42:44 LOG5[48084:47916]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:42:44 LOG5[48084:47916]: Reading configuration from file stunnel.conf
+2011.11.19 23:42:44 LOG7[48084:47916]: PRNG seeded successfully
+2011.11.19 23:42:44 LOG6[48084:47916]: Initializing SSL context for service ssmtp
+2011.11.19 23:42:44 LOG7[48084:47916]: SSL options set: 0x00000004
+2011.11.19 23:42:44 LOG6[48084:47916]: SSL context initialized
+2011.11.19 23:42:44 LOG5[48084:47916]: Configuration successful
+2011.11.19 23:42:44 LOG7[48084:47916]: accept socket: FD=700 allocated (non-blocking mode)
+2011.11.19 23:42:44 LOG7[48084:47916]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:42:44 LOG7[48084:47916]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:42:44 LOG7[48084:47916]: Service ssmtp opened FD=700
+2011.11.19 23:42:51 LOG7[48084:47916]: Dispatching signals from the signal pipe
+2011.11.19 23:42:51 LOG7[48084:47916]: Processing SIGNAL_TERMINATE
+2011.11.19 23:42:51 LOG5[48084:47916]: Terminated
+2011.11.19 23:42:51 LOG7[48084:47916]: Service ssmtp closed FD=700
+2011.11.19 23:42:51 LOG7[48084:47916]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.19 23:46:29 LOG7[47680:47180]: No limit detected for the number of clients
+2011.11.19 23:46:29 LOG7[47680:47180]: make_sockets: s_socket#1: FD=792 allocated (blocking mode)
+2011.11.19 23:46:29 LOG7[47680:47180]: make_sockets: s_socket#2: FD=788 allocated (blocking mode)
+2011.11.19 23:46:29 LOG7[47680:47180]: make_sockets: s_accept: FD=772 allocated (non-blocking mode)
+2011.11.19 23:46:29 LOG5[47680:47180]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:46:29 LOG5[47680:47180]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:46:29 LOG5[47680:47180]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:46:29 LOG5[47680:47180]: Reading configuration from file stunnel.conf
+2011.11.19 23:46:29 LOG7[47680:47180]: PRNG seeded successfully
+2011.11.19 23:46:29 LOG6[47680:47180]: Initializing SSL context for service ssmtp
+2011.11.19 23:46:29 LOG7[47680:47180]: SSL options set: 0x00000004
+2011.11.19 23:46:29 LOG6[47680:47180]: SSL context initialized
+2011.11.19 23:46:29 LOG5[47680:47180]: Configuration successful
+2011.11.19 23:46:29 LOG7[47680:47180]: accept socket: FD=792 allocated (non-blocking mode)
+2011.11.19 23:46:29 LOG7[47680:47180]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:46:29 LOG7[47680:47180]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:46:29 LOG7[47680:47180]: Service ssmtp opened FD=792
+2011.11.19 23:46:29 LOG7[47680:47180]: local socket: FD=464 allocated (non-blocking mode)
+2011.11.19 23:46:29 LOG7[47680:47180]: Service ssmtp accepted FD=464 from 127.0.0.1:2456
+2011.11.19 23:46:29 LOG7[47680:47180]: Creating a new thread
+2011.11.19 23:46:29 LOG7[47680:47180]: New thread created
+2011.11.19 23:46:29 LOG7[47680:47548]: Service ssmtp started
+2011.11.19 23:46:29 LOG7[47680:47548]: Option TCP_NODELAY set on local socket
+2011.11.19 23:46:29 LOG5[47680:47548]: Service ssmtp accepted connection from 127.0.0.1:2456
+2011.11.19 23:46:29 LOG7[47680:47548]: remote socket: FD=440 allocated (non-blocking mode)
+2011.11.19 23:46:29 LOG6[47680:47548]: connect_blocking: connecting 74.125.43.108:465
+2011.11.19 23:46:29 LOG7[47680:47548]: connect_blocking: s_poll_wait 74.125.43.108:465: waiting 10 seconds
+2011.11.19 23:46:29 LOG5[47680:47548]: connect_blocking: connected 74.125.43.108:465
+2011.11.19 23:46:29 LOG5[47680:47548]: Service ssmtp connected remote server from 192.168.7.9:2457
+2011.11.19 23:46:29 LOG7[47680:47548]: Remote FD=440 initialized
+2011.11.19 23:46:29 LOG7[47680:47548]: Option TCP_NODELAY set on remote socket
+2011.11.19 23:46:29 LOG7[47680:47548]: SNI: host name: smtp.gmail.com
+2011.11.19 23:46:29 LOG7[47680:47548]: Peer certificate was cached (2217 bytes)
+2011.11.19 23:46:29 LOG6[47680:47548]: SSL connected: new session negotiated
+2011.11.19 23:46:29 LOG6[47680:47548]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.19 23:46:32 LOG3[47680:47548]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.19 23:46:32 LOG5[47680:47548]: Connection reset: 1885 bytes sent to SSL, 396 bytes sent to socket
+2011.11.19 23:46:32 LOG7[47680:47548]: Service ssmtp finished (0 left)
+2011.11.19 23:46:32 LOG7[47680:47548]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.19 23:46:32 LOG7[47680:47180]: Dispatching signals from the signal pipe
+2011.11.19 23:46:32 LOG7[47680:47180]: Processing SIGNAL_TERMINATE
+2011.11.19 23:46:32 LOG5[47680:47180]: Terminated
+2011.11.19 23:46:32 LOG7[47680:47180]: Service ssmtp closed FD=792
+2011.11.19 23:46:32 LOG7[47680:47180]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.19 23:48:51 LOG7[43868:46440]: No limit detected for the number of clients
+2011.11.19 23:48:51 LOG7[43868:46440]: make_sockets: s_socket#1: FD=692 allocated (blocking mode)
+2011.11.19 23:48:51 LOG7[43868:46440]: make_sockets: s_socket#2: FD=688 allocated (blocking mode)
+2011.11.19 23:48:51 LOG7[43868:46440]: make_sockets: s_accept: FD=672 allocated (non-blocking mode)
+2011.11.19 23:48:51 LOG5[43868:46440]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:48:51 LOG5[43868:46440]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:48:51 LOG5[43868:46440]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:48:51 LOG5[43868:46440]: Reading configuration from file stunnel.conf
+2011.11.19 23:48:51 LOG7[43868:46440]: PRNG seeded successfully
+2011.11.19 23:48:51 LOG6[43868:46440]: Initializing SSL context for service ssmtp
+2011.11.19 23:48:51 LOG7[43868:46440]: SSL options set: 0x00000004
+2011.11.19 23:48:51 LOG6[43868:46440]: SSL context initialized
+2011.11.19 23:48:51 LOG5[43868:46440]: Configuration successful
+2011.11.19 23:48:51 LOG7[43868:46440]: accept socket: FD=692 allocated (non-blocking mode)
+2011.11.19 23:48:51 LOG7[43868:46440]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:48:51 LOG7[43868:46440]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:48:51 LOG7[43868:46440]: Service ssmtp opened FD=692
+2011.11.19 23:48:51 LOG7[43868:46440]: local socket: FD=444 allocated (non-blocking mode)
+2011.11.19 23:48:51 LOG7[43868:46440]: Service ssmtp accepted FD=444 from 127.0.0.1:2512
+2011.11.19 23:48:51 LOG7[43868:46440]: Creating a new thread
+2011.11.19 23:48:51 LOG7[43868:46440]: New thread created
+2011.11.19 23:48:51 LOG7[43868:42496]: Service ssmtp started
+2011.11.19 23:48:51 LOG7[43868:42496]: Option TCP_NODELAY set on local socket
+2011.11.19 23:48:51 LOG5[43868:42496]: Service ssmtp accepted connection from 127.0.0.1:2512
+2011.11.19 23:48:51 LOG7[43868:42496]: remote socket: FD=416 allocated (non-blocking mode)
+2011.11.19 23:48:51 LOG6[43868:42496]: connect_blocking: connecting 74.125.43.109:465
+2011.11.19 23:48:51 LOG7[43868:42496]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.19 23:48:51 LOG5[43868:42496]: connect_blocking: connected 74.125.43.109:465
+2011.11.19 23:48:51 LOG5[43868:42496]: Service ssmtp connected remote server from 192.168.7.9:2513
+2011.11.19 23:48:51 LOG7[43868:42496]: Remote FD=416 initialized
+2011.11.19 23:48:51 LOG7[43868:42496]: Option TCP_NODELAY set on remote socket
+2011.11.19 23:48:51 LOG7[43868:42496]: SNI: host name: smtp.gmail.com
+2011.11.19 23:48:52 LOG7[43868:42496]: Peer certificate was cached (2217 bytes)
+2011.11.19 23:48:52 LOG6[43868:42496]: SSL connected: new session negotiated
+2011.11.19 23:48:52 LOG6[43868:42496]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.19 23:48:54 LOG3[43868:42496]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.19 23:48:54 LOG5[43868:42496]: Connection reset: 2687 bytes sent to SSL, 390 bytes sent to socket
+2011.11.19 23:48:54 LOG7[43868:42496]: Service ssmtp finished (0 left)
+2011.11.19 23:48:54 LOG7[43868:42496]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.19 23:48:54 LOG7[43868:46440]: Dispatching signals from the signal pipe
+2011.11.19 23:48:54 LOG7[43868:46440]: Processing SIGNAL_TERMINATE
+2011.11.19 23:48:54 LOG5[43868:46440]: Terminated
+2011.11.19 23:48:54 LOG7[43868:46440]: Service ssmtp closed FD=692
+2011.11.19 23:48:54 LOG7[43868:46440]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.19 23:49:55 LOG7[47288:47540]: No limit detected for the number of clients
+2011.11.19 23:49:55 LOG7[47288:47540]: make_sockets: s_socket#1: FD=788 allocated (blocking mode)
+2011.11.19 23:49:55 LOG7[47288:47540]: make_sockets: s_socket#2: FD=784 allocated (blocking mode)
+2011.11.19 23:49:55 LOG7[47288:47540]: make_sockets: s_accept: FD=768 allocated (non-blocking mode)
+2011.11.19 23:49:55 LOG5[47288:47540]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:49:55 LOG5[47288:47540]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:49:55 LOG5[47288:47540]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:49:55 LOG5[47288:47540]: Reading configuration from file stunnel.conf
+2011.11.19 23:49:55 LOG7[47288:47540]: PRNG seeded successfully
+2011.11.19 23:49:55 LOG6[47288:47540]: Initializing SSL context for service ssmtp
+2011.11.19 23:49:55 LOG7[47288:47540]: SSL options set: 0x00000004
+2011.11.19 23:49:55 LOG6[47288:47540]: SSL context initialized
+2011.11.19 23:49:55 LOG5[47288:47540]: Configuration successful
+2011.11.19 23:49:55 LOG7[47288:47540]: accept socket: FD=788 allocated (non-blocking mode)
+2011.11.19 23:49:55 LOG7[47288:47540]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:49:55 LOG7[47288:47540]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:49:55 LOG7[47288:47540]: Service ssmtp opened FD=788
+2011.11.19 23:49:55 LOG7[47288:47540]: local socket: FD=460 allocated (non-blocking mode)
+2011.11.19 23:49:55 LOG7[47288:47540]: Service ssmtp accepted FD=460 from 127.0.0.1:2543
+2011.11.19 23:49:55 LOG7[47288:47540]: Creating a new thread
+2011.11.19 23:49:55 LOG7[47288:47540]: New thread created
+2011.11.19 23:49:55 LOG7[47288:47860]: Service ssmtp started
+2011.11.19 23:49:55 LOG7[47288:47860]: Option TCP_NODELAY set on local socket
+2011.11.19 23:49:55 LOG5[47288:47860]: Service ssmtp accepted connection from 127.0.0.1:2543
+2011.11.19 23:49:55 LOG7[47288:47860]: remote socket: FD=436 allocated (non-blocking mode)
+2011.11.19 23:49:55 LOG6[47288:47860]: connect_blocking: connecting 74.125.43.108:465
+2011.11.19 23:49:55 LOG7[47288:47860]: connect_blocking: s_poll_wait 74.125.43.108:465: waiting 10 seconds
+2011.11.19 23:49:55 LOG5[47288:47860]: connect_blocking: connected 74.125.43.108:465
+2011.11.19 23:49:55 LOG5[47288:47860]: Service ssmtp connected remote server from 192.168.7.9:2544
+2011.11.19 23:49:55 LOG7[47288:47860]: Remote FD=436 initialized
+2011.11.19 23:49:55 LOG7[47288:47860]: Option TCP_NODELAY set on remote socket
+2011.11.19 23:49:55 LOG7[47288:47860]: SNI: host name: smtp.gmail.com
+2011.11.19 23:49:55 LOG7[47288:47860]: Peer certificate was cached (2217 bytes)
+2011.11.19 23:49:55 LOG6[47288:47860]: SSL connected: new session negotiated
+2011.11.19 23:49:55 LOG6[47288:47860]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.19 23:49:58 LOG3[47288:47860]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.19 23:49:58 LOG5[47288:47860]: Connection reset: 3637 bytes sent to SSL, 390 bytes sent to socket
+2011.11.19 23:49:58 LOG7[47288:47860]: Service ssmtp finished (0 left)
+2011.11.19 23:49:58 LOG7[47288:47860]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.19 23:49:58 LOG7[47288:47540]: Dispatching signals from the signal pipe
+2011.11.19 23:49:58 LOG7[47288:47540]: Processing SIGNAL_TERMINATE
+2011.11.19 23:49:58 LOG5[47288:47540]: Terminated
+2011.11.19 23:49:58 LOG7[47288:47540]: Service ssmtp closed FD=788
+2011.11.19 23:49:58 LOG7[47288:47540]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.19 23:53:46 LOG7[46640:47040]: No limit detected for the number of clients
+2011.11.19 23:53:46 LOG7[46640:47040]: make_sockets: s_socket#1: FD=788 allocated (blocking mode)
+2011.11.19 23:53:46 LOG7[46640:47040]: make_sockets: s_socket#2: FD=784 allocated (blocking mode)
+2011.11.19 23:53:46 LOG7[46640:47040]: make_sockets: s_accept: FD=768 allocated (non-blocking mode)
+2011.11.19 23:53:46 LOG5[46640:47040]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:53:46 LOG5[46640:47040]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:53:46 LOG5[46640:47040]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:53:46 LOG5[46640:47040]: Reading configuration from file stunnel.conf
+2011.11.19 23:53:46 LOG7[46640:47040]: PRNG seeded successfully
+2011.11.19 23:53:46 LOG6[46640:47040]: Initializing SSL context for service ssmtp
+2011.11.19 23:53:46 LOG7[46640:47040]: SSL options set: 0x00000004
+2011.11.19 23:53:46 LOG6[46640:47040]: SSL context initialized
+2011.11.19 23:53:46 LOG5[46640:47040]: Configuration successful
+2011.11.19 23:53:46 LOG7[46640:47040]: accept socket: FD=788 allocated (non-blocking mode)
+2011.11.19 23:53:46 LOG7[46640:47040]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:53:46 LOG7[46640:47040]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:53:46 LOG7[46640:47040]: Service ssmtp opened FD=788
+2011.11.19 23:53:47 LOG7[46640:47040]: local socket: FD=460 allocated (non-blocking mode)
+2011.11.19 23:53:47 LOG7[46640:47040]: Service ssmtp accepted FD=460 from 127.0.0.1:2624
+2011.11.19 23:53:47 LOG7[46640:47040]: Creating a new thread
+2011.11.19 23:53:47 LOG7[46640:47040]: New thread created
+2011.11.19 23:53:47 LOG7[46640:42496]: Service ssmtp started
+2011.11.19 23:53:47 LOG7[46640:42496]: Option TCP_NODELAY set on local socket
+2011.11.19 23:53:47 LOG5[46640:42496]: Service ssmtp accepted connection from 127.0.0.1:2624
+2011.11.19 23:53:47 LOG7[46640:42496]: remote socket: FD=436 allocated (non-blocking mode)
+2011.11.19 23:53:47 LOG6[46640:42496]: connect_blocking: connecting 74.125.43.109:465
+2011.11.19 23:53:47 LOG7[46640:42496]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.19 23:53:47 LOG5[46640:42496]: connect_blocking: connected 74.125.43.109:465
+2011.11.19 23:53:47 LOG5[46640:42496]: Service ssmtp connected remote server from 192.168.7.9:2625
+2011.11.19 23:53:47 LOG7[46640:42496]: Remote FD=436 initialized
+2011.11.19 23:53:47 LOG7[46640:42496]: Option TCP_NODELAY set on remote socket
+2011.11.19 23:53:47 LOG7[46640:42496]: SNI: host name: smtp.gmail.com
+2011.11.19 23:53:47 LOG7[46640:42496]: Peer certificate was cached (2217 bytes)
+2011.11.19 23:53:47 LOG6[46640:42496]: SSL connected: new session negotiated
+2011.11.19 23:53:47 LOG6[46640:42496]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.19 23:53:49 LOG3[46640:42496]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.19 23:53:49 LOG5[46640:42496]: Connection reset: 2147 bytes sent to SSL, 396 bytes sent to socket
+2011.11.19 23:53:49 LOG7[46640:42496]: Service ssmtp finished (0 left)
+2011.11.19 23:53:49 LOG7[46640:42496]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.19 23:53:50 LOG7[46640:47040]: Dispatching signals from the signal pipe
+2011.11.19 23:53:50 LOG7[46640:47040]: Processing SIGNAL_TERMINATE
+2011.11.19 23:53:50 LOG5[46640:47040]: Terminated
+2011.11.19 23:53:50 LOG7[46640:47040]: Service ssmtp closed FD=788
+2011.11.19 23:53:50 LOG7[46640:47040]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.19 23:59:43 LOG7[47192:47956]: No limit detected for the number of clients
+2011.11.19 23:59:43 LOG7[47192:47956]: make_sockets: s_socket#1: FD=788 allocated (blocking mode)
+2011.11.19 23:59:43 LOG7[47192:47956]: make_sockets: s_socket#2: FD=784 allocated (blocking mode)
+2011.11.19 23:59:43 LOG7[47192:47956]: make_sockets: s_accept: FD=768 allocated (non-blocking mode)
+2011.11.19 23:59:43 LOG5[47192:47956]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.19 23:59:43 LOG5[47192:47956]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.19 23:59:43 LOG5[47192:47956]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.19 23:59:43 LOG5[47192:47956]: Reading configuration from file stunnel.conf
+2011.11.19 23:59:43 LOG7[47192:47956]: PRNG seeded successfully
+2011.11.19 23:59:43 LOG6[47192:47956]: Initializing SSL context for service ssmtp
+2011.11.19 23:59:43 LOG7[47192:47956]: SSL options set: 0x00000004
+2011.11.19 23:59:43 LOG6[47192:47956]: SSL context initialized
+2011.11.19 23:59:43 LOG5[47192:47956]: Configuration successful
+2011.11.19 23:59:43 LOG7[47192:47956]: accept socket: FD=788 allocated (non-blocking mode)
+2011.11.19 23:59:43 LOG7[47192:47956]: Option SO_REUSEADDR set on accept socket
+2011.11.19 23:59:43 LOG7[47192:47956]: Service ssmtp bound to 127.0.0.1:465
+2011.11.19 23:59:43 LOG7[47192:47956]: Service ssmtp opened FD=788
+2011.11.19 23:59:43 LOG7[47192:47956]: local socket: FD=460 allocated (non-blocking mode)
+2011.11.19 23:59:43 LOG7[47192:47956]: Service ssmtp accepted FD=460 from 127.0.0.1:2740
+2011.11.19 23:59:43 LOG7[47192:47956]: Creating a new thread
+2011.11.19 23:59:43 LOG7[47192:47956]: New thread created
+2011.11.19 23:59:43 LOG7[47192:47876]: Service ssmtp started
+2011.11.19 23:59:43 LOG7[47192:47876]: Option TCP_NODELAY set on local socket
+2011.11.19 23:59:43 LOG5[47192:47876]: Service ssmtp accepted connection from 127.0.0.1:2740
+2011.11.19 23:59:43 LOG7[47192:47876]: remote socket: FD=436 allocated (non-blocking mode)
+2011.11.19 23:59:43 LOG6[47192:47876]: connect_blocking: connecting 74.125.43.109:465
+2011.11.19 23:59:43 LOG7[47192:47876]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.19 23:59:43 LOG5[47192:47876]: connect_blocking: connected 74.125.43.109:465
+2011.11.19 23:59:43 LOG5[47192:47876]: Service ssmtp connected remote server from 192.168.7.9:2741
+2011.11.19 23:59:43 LOG7[47192:47876]: Remote FD=436 initialized
+2011.11.19 23:59:43 LOG7[47192:47876]: Option TCP_NODELAY set on remote socket
+2011.11.19 23:59:43 LOG7[47192:47876]: SNI: host name: smtp.gmail.com
+2011.11.19 23:59:43 LOG7[47192:47876]: Peer certificate was cached (2217 bytes)
+2011.11.19 23:59:43 LOG6[47192:47876]: SSL connected: new session negotiated
+2011.11.19 23:59:43 LOG6[47192:47876]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.19 23:59:45 LOG3[47192:47876]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.19 23:59:45 LOG5[47192:47876]: Connection reset: 2138 bytes sent to SSL, 390 bytes sent to socket
+2011.11.19 23:59:45 LOG7[47192:47876]: Service ssmtp finished (0 left)
+2011.11.19 23:59:45 LOG7[47192:47876]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.19 23:59:46 LOG7[47192:47956]: Dispatching signals from the signal pipe
+2011.11.19 23:59:46 LOG7[47192:47956]: Processing SIGNAL_TERMINATE
+2011.11.19 23:59:46 LOG5[47192:47956]: Terminated
+2011.11.19 23:59:46 LOG7[47192:47956]: Service ssmtp closed FD=788
+2011.11.19 23:59:46 LOG7[47192:47956]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.20 22:01:00 LOG7[50868:50524]: No limit detected for the number of clients
+2011.11.20 22:01:00 LOG7[50868:50524]: make_sockets: s_socket#1: FD=792 allocated (blocking mode)
+2011.11.20 22:01:00 LOG7[50868:50524]: make_sockets: s_socket#2: FD=788 allocated (blocking mode)
+2011.11.20 22:01:00 LOG7[50868:50524]: make_sockets: s_accept: FD=772 allocated (non-blocking mode)
+2011.11.20 22:01:00 LOG5[50868:50524]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.20 22:01:00 LOG5[50868:50524]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.20 22:01:00 LOG5[50868:50524]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.20 22:01:00 LOG5[50868:50524]: Reading configuration from file stunnel.conf
+2011.11.20 22:01:00 LOG7[50868:50524]: PRNG seeded successfully
+2011.11.20 22:01:00 LOG6[50868:50524]: Initializing SSL context for service ssmtp
+2011.11.20 22:01:00 LOG7[50868:50524]: SSL options set: 0x00000004
+2011.11.20 22:01:00 LOG6[50868:50524]: SSL context initialized
+2011.11.20 22:01:00 LOG5[50868:50524]: Configuration successful
+2011.11.20 22:01:00 LOG7[50868:50524]: accept socket: FD=792 allocated (non-blocking mode)
+2011.11.20 22:01:00 LOG7[50868:50524]: Option SO_REUSEADDR set on accept socket
+2011.11.20 22:01:00 LOG7[50868:50524]: Service ssmtp bound to 127.0.0.1:465
+2011.11.20 22:01:00 LOG7[50868:50524]: Service ssmtp opened FD=792
+2011.11.20 22:01:01 LOG7[50868:50524]: local socket: FD=472 allocated (non-blocking mode)
+2011.11.20 22:01:01 LOG7[50868:50524]: Service ssmtp accepted FD=472 from 127.0.0.1:1327
+2011.11.20 22:01:01 LOG7[50868:50524]: Creating a new thread
+2011.11.20 22:01:01 LOG7[50868:50524]: New thread created
+2011.11.20 22:01:01 LOG7[50868:48904]: Service ssmtp started
+2011.11.20 22:01:01 LOG7[50868:48904]: Option TCP_NODELAY set on local socket
+2011.11.20 22:01:01 LOG5[50868:48904]: Service ssmtp accepted connection from 127.0.0.1:1327
+2011.11.20 22:01:01 LOG7[50868:48904]: remote socket: FD=448 allocated (non-blocking mode)
+2011.11.20 22:01:01 LOG6[50868:48904]: connect_blocking: connecting 74.125.43.109:465
+2011.11.20 22:01:01 LOG7[50868:48904]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.20 22:01:01 LOG5[50868:48904]: connect_blocking: connected 74.125.43.109:465
+2011.11.20 22:01:01 LOG5[50868:48904]: Service ssmtp connected remote server from 192.168.7.9:1328
+2011.11.20 22:01:01 LOG7[50868:48904]: Remote FD=448 initialized
+2011.11.20 22:01:01 LOG7[50868:48904]: Option TCP_NODELAY set on remote socket
+2011.11.20 22:01:01 LOG7[50868:48904]: SNI: host name: smtp.gmail.com
+2011.11.20 22:01:01 LOG7[50868:48904]: Peer certificate was cached (2217 bytes)
+2011.11.20 22:01:01 LOG6[50868:48904]: SSL connected: new session negotiated
+2011.11.20 22:01:01 LOG6[50868:48904]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.20 22:01:04 LOG3[50868:48904]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.20 22:01:04 LOG5[50868:48904]: Connection reset: 2150 bytes sent to SSL, 390 bytes sent to socket
+2011.11.20 22:01:04 LOG7[50868:48904]: Service ssmtp finished (0 left)
+2011.11.20 22:01:04 LOG7[50868:48904]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.20 22:01:04 LOG7[50868:50524]: Dispatching signals from the signal pipe
+2011.11.20 22:01:04 LOG7[50868:50524]: Processing SIGNAL_TERMINATE
+2011.11.20 22:01:04 LOG5[50868:50524]: Terminated
+2011.11.20 22:01:04 LOG7[50868:50524]: Service ssmtp closed FD=792
+2011.11.20 22:01:04 LOG7[50868:50524]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.21 22:00:54 LOG7[50980:53988]: No limit detected for the number of clients
+2011.11.21 22:00:54 LOG7[50980:53988]: make_sockets: s_socket#1: FD=788 allocated (blocking mode)
+2011.11.21 22:00:54 LOG7[50980:53988]: make_sockets: s_socket#2: FD=784 allocated (blocking mode)
+2011.11.21 22:00:54 LOG7[50980:53988]: make_sockets: s_accept: FD=768 allocated (non-blocking mode)
+2011.11.21 22:00:54 LOG5[50980:53988]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.21 22:00:54 LOG5[50980:53988]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.21 22:00:54 LOG5[50980:53988]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.21 22:00:54 LOG5[50980:53988]: Reading configuration from file stunnel.conf
+2011.11.21 22:00:54 LOG7[50980:53988]: PRNG seeded successfully
+2011.11.21 22:00:55 LOG6[50980:53988]: Initializing SSL context for service ssmtp
+2011.11.21 22:00:55 LOG7[50980:53988]: SSL options set: 0x00000004
+2011.11.21 22:00:55 LOG6[50980:53988]: SSL context initialized
+2011.11.21 22:00:55 LOG5[50980:53988]: Configuration successful
+2011.11.21 22:00:55 LOG7[50980:53988]: accept socket: FD=788 allocated (non-blocking mode)
+2011.11.21 22:00:55 LOG7[50980:53988]: Option SO_REUSEADDR set on accept socket
+2011.11.21 22:00:55 LOG7[50980:53988]: Service ssmtp bound to 127.0.0.1:465
+2011.11.21 22:00:55 LOG7[50980:53988]: Service ssmtp opened FD=788
+2011.11.21 22:00:55 LOG7[50980:53988]: local socket: FD=460 allocated (non-blocking mode)
+2011.11.21 22:00:55 LOG7[50980:53988]: Service ssmtp accepted FD=460 from 127.0.0.1:3717
+2011.11.21 22:00:55 LOG7[50980:53988]: Creating a new thread
+2011.11.21 22:00:55 LOG7[50980:53988]: New thread created
+2011.11.21 22:00:55 LOG7[50980:57820]: Service ssmtp started
+2011.11.21 22:00:55 LOG7[50980:57820]: Option TCP_NODELAY set on local socket
+2011.11.21 22:00:55 LOG5[50980:57820]: Service ssmtp accepted connection from 127.0.0.1:3717
+2011.11.21 22:00:55 LOG7[50980:57820]: remote socket: FD=436 allocated (non-blocking mode)
+2011.11.21 22:00:55 LOG6[50980:57820]: connect_blocking: connecting 74.125.43.109:465
+2011.11.21 22:00:55 LOG7[50980:57820]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.21 22:00:55 LOG5[50980:57820]: connect_blocking: connected 74.125.43.109:465
+2011.11.21 22:00:55 LOG5[50980:57820]: Service ssmtp connected remote server from 192.168.7.9:3718
+2011.11.21 22:00:55 LOG7[50980:57820]: Remote FD=436 initialized
+2011.11.21 22:00:55 LOG7[50980:57820]: Option TCP_NODELAY set on remote socket
+2011.11.21 22:00:55 LOG7[50980:57820]: SNI: host name: smtp.gmail.com
+2011.11.21 22:00:55 LOG7[50980:57820]: Peer certificate was cached (2217 bytes)
+2011.11.21 22:00:55 LOG6[50980:57820]: SSL connected: new session negotiated
+2011.11.21 22:00:55 LOG6[50980:57820]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.21 22:01:01 LOG7[50980:57820]: SSL socket closed on SSL_read
+2011.11.21 22:01:01 LOG7[50980:57820]: Sending socket write shutdown
+2011.11.21 22:01:01 LOG5[50980:57820]: Connection closed: 2146 bytes sent to SSL, 384 bytes sent to socket
+2011.11.21 22:01:01 LOG7[50980:57820]: Service ssmtp finished (0 left)
+2011.11.21 22:01:01 LOG7[50980:57820]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.21 22:01:01 LOG7[50980:53988]: Dispatching signals from the signal pipe
+2011.11.21 22:01:01 LOG7[50980:53988]: Processing SIGNAL_TERMINATE
+2011.11.21 22:01:01 LOG5[50980:53988]: Terminated
+2011.11.21 22:01:01 LOG7[50980:53988]: Service ssmtp closed FD=788
+2011.11.21 22:01:01 LOG7[50980:53988]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.22 22:00:53 LOG7[97436:95460]: No limit detected for the number of clients
+2011.11.22 22:00:53 LOG7[97436:95460]: make_sockets: s_socket#1: FD=788 allocated (blocking mode)
+2011.11.22 22:00:53 LOG7[97436:95460]: make_sockets: s_socket#2: FD=784 allocated (blocking mode)
+2011.11.22 22:00:53 LOG7[97436:95460]: make_sockets: s_accept: FD=768 allocated (non-blocking mode)
+2011.11.22 22:00:53 LOG5[97436:95460]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.22 22:00:53 LOG5[97436:95460]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.22 22:00:53 LOG5[97436:95460]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.22 22:00:53 LOG5[97436:95460]: Reading configuration from file stunnel.conf
+2011.11.22 22:00:53 LOG7[97436:95460]: PRNG seeded successfully
+2011.11.22 22:00:53 LOG6[97436:95460]: Initializing SSL context for service ssmtp
+2011.11.22 22:00:53 LOG7[97436:95460]: SSL options set: 0x00000004
+2011.11.22 22:00:53 LOG6[97436:95460]: SSL context initialized
+2011.11.22 22:00:53 LOG5[97436:95460]: Configuration successful
+2011.11.22 22:00:53 LOG7[97436:95460]: accept socket: FD=788 allocated (non-blocking mode)
+2011.11.22 22:00:53 LOG7[97436:95460]: Option SO_REUSEADDR set on accept socket
+2011.11.22 22:00:53 LOG7[97436:95460]: Service ssmtp bound to 127.0.0.1:465
+2011.11.22 22:00:53 LOG7[97436:95460]: Service ssmtp opened FD=788
+2011.11.22 22:00:53 LOG7[97436:95460]: local socket: FD=468 allocated (non-blocking mode)
+2011.11.22 22:00:53 LOG7[97436:95460]: Service ssmtp accepted FD=468 from 127.0.0.1:1040
+2011.11.22 22:00:53 LOG7[97436:95460]: Creating a new thread
+2011.11.22 22:00:53 LOG7[97436:95460]: New thread created
+2011.11.22 22:00:53 LOG7[97436:98572]: Service ssmtp started
+2011.11.22 22:00:53 LOG7[97436:98572]: Option TCP_NODELAY set on local socket
+2011.11.22 22:00:53 LOG5[97436:98572]: Service ssmtp accepted connection from 127.0.0.1:1040
+2011.11.22 22:00:53 LOG7[97436:98572]: remote socket: FD=444 allocated (non-blocking mode)
+2011.11.22 22:00:53 LOG6[97436:98572]: connect_blocking: connecting 74.125.43.108:465
+2011.11.22 22:00:53 LOG7[97436:98572]: connect_blocking: s_poll_wait 74.125.43.108:465: waiting 10 seconds
+2011.11.22 22:00:53 LOG5[97436:98572]: connect_blocking: connected 74.125.43.108:465
+2011.11.22 22:00:53 LOG5[97436:98572]: Service ssmtp connected remote server from 192.168.7.9:1041
+2011.11.22 22:00:53 LOG7[97436:98572]: Remote FD=444 initialized
+2011.11.22 22:00:53 LOG7[97436:98572]: Option TCP_NODELAY set on remote socket
+2011.11.22 22:00:53 LOG7[97436:98572]: SNI: host name: smtp.gmail.com
+2011.11.22 22:00:53 LOG7[97436:98572]: Peer certificate was cached (2217 bytes)
+2011.11.22 22:00:53 LOG6[97436:98572]: SSL connected: new session negotiated
+2011.11.22 22:00:53 LOG6[97436:98572]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.22 22:00:56 LOG3[97436:98572]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.22 22:00:56 LOG5[97436:98572]: Connection reset: 2147 bytes sent to SSL, 402 bytes sent to socket
+2011.11.22 22:00:56 LOG7[97436:98572]: Service ssmtp finished (0 left)
+2011.11.22 22:00:56 LOG7[97436:98572]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.22 22:00:56 LOG7[97436:95460]: Dispatching signals from the signal pipe
+2011.11.22 22:00:56 LOG7[97436:95460]: Processing SIGNAL_TERMINATE
+2011.11.22 22:00:56 LOG5[97436:95460]: Terminated
+2011.11.22 22:00:56 LOG7[97436:95460]: Service ssmtp closed FD=788
+2011.11.22 22:00:56 LOG7[97436:95460]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.23 22:02:02 LOG7[104124:104388]: No limit detected for the number of clients
+2011.11.23 22:02:02 LOG7[104124:104388]: make_sockets: s_socket#1: FD=792 allocated (blocking mode)
+2011.11.23 22:02:02 LOG7[104124:104388]: make_sockets: s_socket#2: FD=788 allocated (blocking mode)
+2011.11.23 22:02:02 LOG7[104124:104388]: make_sockets: s_accept: FD=772 allocated (non-blocking mode)
+2011.11.23 22:02:02 LOG5[104124:104388]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.23 22:02:02 LOG5[104124:104388]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.23 22:02:02 LOG5[104124:104388]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.23 22:02:02 LOG5[104124:104388]: Reading configuration from file stunnel.conf
+2011.11.23 22:02:03 LOG7[104124:104388]: PRNG seeded successfully
+2011.11.23 22:02:03 LOG6[104124:104388]: Initializing SSL context for service ssmtp
+2011.11.23 22:02:03 LOG7[104124:104388]: SSL options set: 0x00000004
+2011.11.23 22:02:03 LOG6[104124:104388]: SSL context initialized
+2011.11.23 22:02:03 LOG5[104124:104388]: Configuration successful
+2011.11.23 22:02:03 LOG7[104124:104388]: accept socket: FD=792 allocated (non-blocking mode)
+2011.11.23 22:02:03 LOG7[104124:104388]: Option SO_REUSEADDR set on accept socket
+2011.11.23 22:02:03 LOG7[104124:104388]: Service ssmtp bound to 127.0.0.1:465
+2011.11.23 22:02:03 LOG7[104124:104388]: Service ssmtp opened FD=792
+2011.11.23 22:02:03 LOG7[104124:104388]: local socket: FD=464 allocated (non-blocking mode)
+2011.11.23 22:02:03 LOG7[104124:104388]: Service ssmtp accepted FD=464 from 127.0.0.1:4674
+2011.11.23 22:02:03 LOG7[104124:104388]: Creating a new thread
+2011.11.23 22:02:03 LOG7[104124:104388]: New thread created
+2011.11.23 22:02:03 LOG7[104124:94352]: Service ssmtp started
+2011.11.23 22:02:03 LOG7[104124:94352]: Option TCP_NODELAY set on local socket
+2011.11.23 22:02:03 LOG5[104124:94352]: Service ssmtp accepted connection from 127.0.0.1:4674
+2011.11.23 22:02:03 LOG7[104124:94352]: remote socket: FD=440 allocated (non-blocking mode)
+2011.11.23 22:02:03 LOG6[104124:94352]: connect_blocking: connecting 74.125.43.109:465
+2011.11.23 22:02:03 LOG7[104124:94352]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.23 22:02:03 LOG5[104124:94352]: connect_blocking: connected 74.125.43.109:465
+2011.11.23 22:02:03 LOG5[104124:94352]: Service ssmtp connected remote server from 192.168.7.9:4675
+2011.11.23 22:02:03 LOG7[104124:94352]: Remote FD=440 initialized
+2011.11.23 22:02:03 LOG7[104124:94352]: Option TCP_NODELAY set on remote socket
+2011.11.23 22:02:03 LOG7[104124:94352]: SNI: host name: smtp.gmail.com
+2011.11.23 22:02:03 LOG7[104124:94352]: Peer certificate was cached (2217 bytes)
+2011.11.23 22:02:03 LOG6[104124:94352]: SSL connected: new session negotiated
+2011.11.23 22:02:03 LOG6[104124:94352]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.23 22:02:05 LOG3[104124:94352]: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2011.11.23 22:02:05 LOG5[104124:94352]: Connection reset: 2147 bytes sent to SSL, 396 bytes sent to socket
+2011.11.23 22:02:05 LOG7[104124:94352]: Service ssmtp finished (0 left)
+2011.11.23 22:02:05 LOG7[104124:94352]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.23 22:02:05 LOG7[104124:104388]: Dispatching signals from the signal pipe
+2011.11.23 22:02:05 LOG7[104124:104388]: Processing SIGNAL_TERMINATE
+2011.11.23 22:02:05 LOG5[104124:104388]: Terminated
+2011.11.23 22:02:05 LOG7[104124:104388]: Service ssmtp closed FD=792
+2011.11.23 22:02:05 LOG7[104124:104388]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
+2011.11.25 22:02:01 LOG7[122848:119928]: No limit detected for the number of clients
+2011.11.25 22:02:01 LOG7[122848:119928]: make_sockets: s_socket#1: FD=792 allocated (blocking mode)
+2011.11.25 22:02:01 LOG7[122848:119928]: make_sockets: s_socket#2: FD=788 allocated (blocking mode)
+2011.11.25 22:02:01 LOG7[122848:119928]: make_sockets: s_accept: FD=772 allocated (non-blocking mode)
+2011.11.25 22:02:01 LOG5[122848:119928]: stunnel 4.46 on x86-pc-mingw32-gnu platform
+2011.11.25 22:02:01 LOG5[122848:119928]: Compiled/running with OpenSSL 1.0.0e 6 Sep 2011
+2011.11.25 22:02:01 LOG5[122848:119928]: Threading:WIN32 SSL:ENGINE Auth:none Sockets:SELECT,IPv6
+2011.11.25 22:02:01 LOG5[122848:119928]: Reading configuration from file stunnel.conf
+2011.11.25 22:02:01 LOG7[122848:119928]: PRNG seeded successfully
+2011.11.25 22:02:01 LOG6[122848:119928]: Initializing SSL context for service ssmtp
+2011.11.25 22:02:01 LOG7[122848:119928]: SSL options set: 0x00000004
+2011.11.25 22:02:01 LOG6[122848:119928]: SSL context initialized
+2011.11.25 22:02:01 LOG5[122848:119928]: Configuration successful
+2011.11.25 22:02:01 LOG7[122848:119928]: accept socket: FD=792 allocated (non-blocking mode)
+2011.11.25 22:02:01 LOG7[122848:119928]: Option SO_REUSEADDR set on accept socket
+2011.11.25 22:02:01 LOG7[122848:119928]: Service ssmtp bound to 127.0.0.1:465
+2011.11.25 22:02:01 LOG7[122848:119928]: Service ssmtp opened FD=792
+2011.11.25 22:02:01 LOG7[122848:119928]: local socket: FD=464 allocated (non-blocking mode)
+2011.11.25 22:02:01 LOG7[122848:119928]: Service ssmtp accepted FD=464 from 127.0.0.1:1187
+2011.11.25 22:02:01 LOG7[122848:119928]: Creating a new thread
+2011.11.25 22:02:01 LOG7[122848:119928]: New thread created
+2011.11.25 22:02:01 LOG7[122848:124260]: Service ssmtp started
+2011.11.25 22:02:01 LOG7[122848:124260]: Option TCP_NODELAY set on local socket
+2011.11.25 22:02:01 LOG5[122848:124260]: Service ssmtp accepted connection from 127.0.0.1:1187
+2011.11.25 22:02:01 LOG7[122848:124260]: remote socket: FD=440 allocated (non-blocking mode)
+2011.11.25 22:02:01 LOG6[122848:124260]: connect_blocking: connecting 74.125.43.109:465
+2011.11.25 22:02:01 LOG7[122848:124260]: connect_blocking: s_poll_wait 74.125.43.109:465: waiting 10 seconds
+2011.11.25 22:02:01 LOG5[122848:124260]: connect_blocking: connected 74.125.43.109:465
+2011.11.25 22:02:01 LOG5[122848:124260]: Service ssmtp connected remote server from 192.168.7.9:1188
+2011.11.25 22:02:01 LOG7[122848:124260]: Remote FD=440 initialized
+2011.11.25 22:02:01 LOG7[122848:124260]: Option TCP_NODELAY set on remote socket
+2011.11.25 22:02:01 LOG7[122848:124260]: SNI: host name: smtp.gmail.com
+2011.11.25 22:02:01 LOG7[122848:124260]: Peer certificate was cached (2217 bytes)
+2011.11.25 22:02:01 LOG6[122848:124260]: SSL connected: new session negotiated
+2011.11.25 22:02:01 LOG6[122848:124260]: Negotiated ciphers: RC4-SHA SSLv3 Kx=RSA Au=RSA Enc=RC4(128) Mac=SHA1
+2011.11.25 22:02:06 LOG7[122848:124260]: SSL socket closed on SSL_read
+2011.11.25 22:02:06 LOG7[122848:124260]: Sending socket write shutdown
+2011.11.25 22:02:06 LOG5[122848:124260]: Connection closed: 2283 bytes sent to SSL, 390 bytes sent to socket
+2011.11.25 22:02:06 LOG7[122848:124260]: Service ssmtp finished (0 left)
+2011.11.25 22:02:06 LOG7[122848:124260]: str_stats: 0 block(s), 0 data byte(s), 0 control byte(s)
+2011.11.25 22:02:07 LOG7[122848:119928]: Dispatching signals from the signal pipe
+2011.11.25 22:02:07 LOG7[122848:119928]: Processing SIGNAL_TERMINATE
+2011.11.25 22:02:07 LOG5[122848:119928]: Terminated
+2011.11.25 22:02:07 LOG7[122848:119928]: Service ssmtp closed FD=792
+2011.11.25 22:02:07 LOG7[122848:119928]: str_stats: 31 block(s), 1050 data byte(s), 930 control byte(s)
